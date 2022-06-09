@@ -43,3 +43,9 @@
 .peragraph {
   font-size: 14px;
 }
+
+@media only screen and (max-width: 967px) {
+  .productMain {
+    flex-direction: column;
+  }
+}

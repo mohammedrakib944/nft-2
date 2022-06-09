@@ -53,3 +53,9 @@
   border-color: var(--primaryColor);
   box-shadow: 0 0 0 0.25rem rgb(235 20 132 / 25%);
 }
+@media only screen and (max-width: 967px) {
+  .userSearch {
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+}

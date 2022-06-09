@@ -100,6 +100,12 @@ a {
     bottom: 30px;
     left: -18px;
   }
+  .search {
+    display: none;
+  }
+  .mybtnMobile {
+    margin-bottom: 10px;
+  }
   .navigation {
     width: 60%;
     background: white;
@@ -151,6 +157,9 @@ a {
   }
   .Logo {
     padding: initial;
+  }
+  .logoImg {
+    padding: 12px;
   }
   .react-parallax-bgimage {
     left: 130% !important;

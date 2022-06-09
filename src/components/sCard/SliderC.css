@@ -40,3 +40,9 @@
 .SlideCard > h4 {
   font-size: 1rem;
 }
+@media only screen and (max-width: 967px) {
+  .SlideCard {
+    max-width: none;
+    margin-right: 0px;
+  }
+}

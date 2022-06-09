@@ -8,7 +8,6 @@ import "./nav.css";
 
 export default function Nav() {
   const [toggleButton, setToggleButton] = useState("hideNav");
-  const [toggleSetting, setToggleSetting] = useState("");
 
   window.onscroll = function () {
     const navi = document.querySelector(".navSection");
@@ -16,10 +15,6 @@ export default function Nav() {
     if (height >= 10) navi.classList.add("secondNav");
     else navi.classList.remove("secondNav");
   };
-
-  function changePrimaryColor(color) {
-    document.documentElement.style.setProperty("--primaryColor", color);
-  }
 
   return (
     <>
@@ -67,7 +62,7 @@ export default function Nav() {
                   <a href="/team">Following</a>
                 </li>
                 <li>
-                  <button className="my-btn">Create</button>
+                  <button className="my-btn mybtnMobile">Create</button>
                   &nbsp;&nbsp;
                   <button className="my-btn">Connecet</button>
                 </li>
